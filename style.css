@@ -292,6 +292,10 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 .ft{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:50px;margin-bottom:50px}
 .ft-logo{font-family:var(--fd);font-size:1.85rem;letter-spacing:4px}
 .ft-logo b{color:var(--accent)}
+.ft-logo img {height:80px;
+width:auto;
+transform:scale(1.8);
+transform-origin:left center;}
 .ft-tag{font-family:var(--fl);font-size:0.82rem;color:var(--muted);margin-top:8px}
 .ft-cols{display:flex;flex-wrap:wrap;gap:50px}
 .fc-t{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:18px}
